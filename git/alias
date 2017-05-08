@@ -1,0 +1,5 @@
+	lga = log --graph --oneline --all --decorate
+	lg = log --graph --all --pretty=format:'%C(bold)%h%Creset -%C(auto)%d%Creset %s %C(green dim)(%cr)%Creset %C(ul)<%an>'
+	amend = commit --amend --no-edit
+	unstage = reset HEAD --
+	last = log -1 HEAD
